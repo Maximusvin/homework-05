@@ -261,22 +261,18 @@ body {
   transition: all 0.3s ease;
 }
 
-.card:hover .overlay-wrap {
+.card:hover .overlay {
   opacity: 1;
   transition: all 0.7s ease;
 }
 
-.overlay-wrap {
+.overlay {
   opacity: 0;
   width: 255px;
   height: 282px;
   position: absolute;
+  background-clip: padding-box;
   border: 10px solid rgba(255, 255, 255, 0.55);
-}
-
-.overlay {
-  width: 100%;
-  height: 100%;
   background-color: rgba(0, 0, 0, 0.55);
 }
 
