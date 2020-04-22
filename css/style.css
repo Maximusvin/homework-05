@@ -347,3 +347,8 @@ body {
 .footer a {
   color: #46bfa9;
 }
+
+.footer a:hover {
+  text-shadow: 0 0 4px #46bfa9;
+  transition: all 0.3s ease;
+}
