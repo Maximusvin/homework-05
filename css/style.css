@@ -237,8 +237,8 @@ body {
 .card-title-box {
   padding-left: 15px;
   background-color: #323232;
-  height: 45px;
-  line-height: 45px;
+  height: 42px;
+  line-height: 42px;
 }
 .card-title {
   float: left;
@@ -246,6 +246,7 @@ body {
 
 .card-title a {
   display: block;
+  height: 100%;
   color: #fff;
 }
 
